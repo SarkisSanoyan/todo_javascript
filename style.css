@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todo {
+    width: 320px;
+    background: lightblue;
+    padding: .5rem;
+    margin: .3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo .fa-check {
+    color: green;
+    cursor: pointer;
+    
+}
+
+.todo .fa-trash {
+    color: crimson;
+    cursor: pointer;
+}
+
+.done {
+    background: limegreen;
+}
